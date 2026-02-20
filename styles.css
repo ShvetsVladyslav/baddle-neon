@@ -103,7 +103,7 @@ body{
   border:1px solid rgba(255,255,255,.08);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
-  overflow:hidden;
+  overflow:visible;
   width: 800px;
 }
 
@@ -179,6 +179,8 @@ video{
 .video-actions{ display:flex; gap: 10px; flex-wrap:wrap; }
 
 .answer-area{
+  position: relative;
+  z-index: 5;
   padding: 14px;
   border-top: 1px solid rgba(255,255,255,.06);
   background: rgba(10,10,18,.35);

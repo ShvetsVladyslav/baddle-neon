@@ -25,7 +25,7 @@ const ATTRIBUTES = [
     near: 1
   },
   { key: "serverRole",  label: "Роль на сервере", type: "enum",
-    values: ["mommy","министр додепа","сучка","сладенькие","полусладенькие","без роли"]
+    values: ["mommy","министр додепа","сучка","xdd","сладенькие","полусладенькие","без роли"]
   }
 ];
 
@@ -58,6 +58,7 @@ const DEFAULT_DATA = {
 
 let ROSTER = DEFAULT_DATA.players.slice();
 let CLIPS = DEFAULT_DATA.clips.slice();
+const CLIPS_CDN_BASE = "https://pub-cb0a978cc7d94413ab1f5b36f5acdc66.r2.dev";
 let QUESTIONS = buildQuestions();
 
 function buildQuestions(){
@@ -77,7 +78,11 @@ function buildQuestions(){
   const profile = rosterCount
     ? [{ id: "p1", targetId: ROSTER[0].id, image: ROSTER[0].avatar }]
     : [];
-  const next = CLIPS.map((clip, i) => ({ id: `n${i + 1}`, ...clip }));
+  const next = CLIPS.map((clip, i) => ({
+    id: `n${i + 1}`,
+    ...clip,
+    src: resolveClipSrc(clip.src)
+  }));
   return { classic, emoji, profile, next };
 }
 
@@ -87,6 +92,18 @@ function applyData(data){
   QUESTIONS = buildQuestions();
   bag.classic = []; bag.emoji = []; bag.profile = []; bag.next = [];
   state.index = { classic: 0, emoji: 0, profile: 0, next: 0 };
+}
+
+function resolveClipSrc(src){
+  const raw = String(src || "").trim();
+  if(!raw) return raw;
+  if(/^https?:\/\//i.test(raw)) return raw;
+
+  const normalized = raw.replace(/\\/g, "/");
+  const fileName = normalized.split("/").pop() || normalized;
+  if(!fileName) return raw;
+  const base = CLIPS_CDN_BASE.replace(/\/+$/, "");
+  return `${base}/${encodeURIComponent(fileName)}`;
 }
 
 // ------------------ Utilities ------------------
@@ -821,4 +838,3 @@ async function init(){
 }
 
 init();
-

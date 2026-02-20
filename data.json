@@ -1,23 +1,1566 @@
 ﻿{
-  "players": [
-    {
-      "id": "u1",
-      "name": "это вино",
-      "aliases": ["это вино", "vin0", "vino"],
-      "avatar": "assets/profiles/placeholder-profile.jpg",
-      "lolRole": "Мид",
-      "mainChamp": "Мэл",
-      "rank": "Алмаз",
-      "serverRole": "mommy",
-      "emojis": ["🎮", "🔥", "🧃"]
-    }
-  ],
-  "clips": [
-    {
-      "prompt": "Что произошло дальше?",
-      "mediaType": "video",
-      "src": "assets/clips/16-1_RU-549033542_01.webm",
-      "cutSeconds": 5
-    }
-  ]
+    "players":  [
+                    {
+                        "id":  "u1",
+                        "name":  "это редбулл",
+                        "aliases":  [
+                                        "это редбулл",
+                                        "mnepohui4481"
+                                    ],
+                        "avatar":  "assets/profiles/редбулл.png",
+                        "lolRole":  "АДК",
+                        "mainChamp":  "Афелий",
+                        "rank":  "Челленджер",
+                        "server":  "это редбулл",
+                        "serverRole":  "сладенькие",
+                        "emojis":  [
+                                       "🐀",
+                                       "🤬",
+                                       "🔫",
+                                       "👷‍♂️",
+                                       "🎙️"
+                                   ]
+                    },
+                    {
+                        "id":  "u2",
+                        "name":  "это ананасовый сироп",
+                        "aliases":  [
+                                        "это ананасовый сироп",
+                                        "krislitva"
+                                    ],
+                        "avatar":  "assets/profiles/ананас сироп.png",
+                        "lolRole":  "Топ",
+                        "mainChamp":  "ДЖАКС",
+                        "rank":  "Челленджер",
+                        "server":  "это ананасовый сироп",
+                        "serverRole":  "сладенькие",
+                        "emojis":  [
+                                       "🤙",
+                                       "😎",
+                                       "🌿",
+                                       "🎰",
+                                       "🇱🇹"
+                                   ]
+                    },
+                    {
+                        "id":  "u3",
+                        "name":  "это бензин",
+                        "aliases":  [
+                                        "это бензин",
+                                        "kendricklenar"
+                                    ],
+                        "avatar":  "assets/profiles/бензин.png",
+                        "lolRole":  "Лес",
+                        "mainChamp":  "Нидали",
+                        "rank":  "Челленджер",
+                        "server":  "это бензин",
+                        "serverRole":  "сладенькие",
+                        "emojis":  [
+                                       "👩",
+                                       "➡️",
+                                       "😺",
+                                       "🌴",
+                                       "😎"
+                                   ]
+                    },
+                    {
+                        "id":  "u4",
+                        "name":  "это фреш бар",
+                        "aliases":  [
+                                        "это фреш бар",
+                                        "fleyzi"
+                                    ],
+                        "avatar":  "assets/profiles/фреш бар.png",
+                        "lolRole":  "АДК",
+                        "mainChamp":  "Джин",
+                        "rank":  "Платина",
+                        "server":  "это фреш бар",
+                        "serverRole":  "сладенькие",
+                        "emojis":  [
+                                       "👦",
+                                       "🎭",
+                                       "👧",
+                                       "🎰",
+                                       "💼"
+                                   ]
+                    },
+                    {
+                        "id":  "u5",
+                        "name":  "это сакэ",
+                        "aliases":  [
+                                        "это сакэ",
+                                        "dmytro69"
+                                    ],
+                        "avatar":  "assets/profiles/сакэ.png",
+                        "lolRole":  "Лес",
+                        "mainChamp":  "Виего",
+                        "rank":  "Изумруд",
+                        "server":  "это сакэ",
+                        "serverRole":  "сладенькие",
+                        "emojis":  [
+                                       "👴",
+                                       "🏛️",
+                                       "🎰",
+                                       "🎮",
+                                       "📜"
+                                   ]
+                    },
+                    {
+                        "id":  "u6",
+                        "name":  "это текила",
+                        "aliases":  [
+                                        "это текила",
+                                        "dickinson_"
+                                    ],
+                        "avatar":  "assets/profiles/текила.png",
+                        "lolRole":  "АДК",
+                        "mainChamp":  "Мисс Фортуна",
+                        "rank":  "Платина",
+                        "server":  "это текила",
+                        "serverRole":  "министр додепа",
+                        "emojis":  [
+                                       "🔝",
+                                       "2️⃣",
+                                       "😇",
+                                       "🛡️",
+                                       "🐶"
+                                   ]
+                    },
+                    {
+                        "id":  "u7",
+                        "name":  "это добрый кола",
+                        "aliases":  [
+                                        "это добрый кола",
+                                        "nukeforduke"
+                                    ],
+                        "avatar":  "assets/profiles/добрый кола.png",
+                        "lolRole":  "-",
+                        "mainChamp":  "-",
+                        "rank":  "-",
+                        "server":  "это добрый кола",
+                        "serverRole":  "полусладенькие",
+                        "emojis":  [
+                                       "👴",
+                                       "🎮",
+                                       "⚔️",
+                                       "💎",
+                                       "📜"
+                                   ]
+                    },
+                    {
+                        "id":  "u8",
+                        "name":  "это sunny",
+                        "aliases":  [
+                                        "это sunny",
+                                        "luckerfourleaf"
+                                    ],
+                        "avatar":  "assets/profiles/sunny.png",
+                        "lolRole":  "Лес",
+                        "mainChamp":  "Экко",
+                        "rank":  "Мастер",
+                        "server":  "это sunny",
+                        "serverRole":  "сладенькие",
+                        "emojis":  [
+                                       "🎤",
+                                       "🍺",
+                                       "🕐",
+                                       "🎮",
+                                       "🌀"
+                                   ]
+                    },
+                    {
+                        "id":  "u9",
+                        "name":  "это цикорий",
+                        "aliases":  [
+                                        "это цикорий",
+                                        "hurtybunny"
+                                    ],
+                        "avatar":  "assets/profiles/цикорий.png",
+                        "lolRole":  "АДК",
+                        "mainChamp":  "Шая",
+                        "rank":  "Изумруд",
+                        "server":  "это цикорий",
+                        "serverRole":  "без роли",
+                        "emojis":  [
+                                       "🤓",
+                                       "😐",
+                                       "🎨",
+                                       "🐴",
+                                       "🏹"
+                                   ]
+                    },
+                    {
+                        "id":  "u10",
+                        "name":  "это шиповник",
+                        "aliases":  [
+                                        "это шиповник",
+                                        "lutikedel"
+                                    ],
+                        "avatar":  "assets/profiles/шиповник.png",
+                        "lolRole":  "АДК",
+                        "mainChamp":  "Кейтлин",
+                        "rank":  "Золото",
+                        "server":  "это шиповник",
+                        "serverRole":  "полусладенькие",
+                        "emojis":  [
+                                       "👧",
+                                       "🎨",
+                                       "🎮",
+                                       "🎯",
+                                       "🔫"
+                                   ]
+                    },
+                    {
+                        "id":  "u11",
+                        "name":  "это водичка",
+                        "aliases":  [
+                                        "это водичка",
+                                        "terwnmter"
+                                    ],
+                        "avatar":  "assets/profiles/водичка.png",
+                        "lolRole":  "Топ",
+                        "mainChamp":  "Ирелия",
+                        "rank":  "Грандмастер",
+                        "server":  "это водичка",
+                        "serverRole":  "полусладенькие",
+                        "emojis":  [
+                                       "😡",
+                                       "🔝",
+                                       "⚔️",
+                                       "️🩸",
+                                       "👑"
+                                   ]
+                    },
+                    {
+                        "id":  "u12",
+                        "name":  "это персиковый чай",
+                        "aliases":  [
+                                        "это персиковый чай",
+                                        "tsimoc"
+                                    ],
+                        "avatar":  "assets/profiles/персиковый чай.png",
+                        "lolRole":  "Топ",
+                        "mainChamp":  "Доктор Мундо",
+                        "rank":  "Челленджер",
+                        "server":  "это персиковый чай",
+                        "serverRole":  "сладенькие",
+                        "emojis":  [
+                                       "🧟",
+                                       "🚶",
+                                       "🏰",
+                                       "💥",
+                                       "🏆"
+                                   ]
+                    },
+                    {
+                        "id":  "u14",
+                        "name":  "это егермейстер",
+                        "aliases":  [
+                                        "это егермейстер",
+                                        "frintezzaadena"
+                                    ],
+                        "avatar":  "assets/profiles/егермейстер.png",
+                        "lolRole":  "Топ",
+                        "mainChamp":  "Амбесса",
+                        "rank":  "Мастер",
+                        "server":  "это егермейстер",
+                        "serverRole":  "без роли",
+                        "emojis":  [
+                                       "⚔️",
+                                       "😂",
+                                       "🍓",
+                                       "🎭",
+                                       "🎮"
+                                   ]
+                    },
+                    {
+                        "id":  "u15",
+                        "name":  "это кока коля зеро",
+                        "aliases":  [
+                                        "это кока коля зеро",
+                                        "grndsnm"
+                                    ],
+                        "avatar":  "assets/profiles/кока коля зеро.png",
+                        "lolRole":  "-",
+                        "mainChamp":  "-",
+                        "rank":  "-",
+                        "server":  "это кока коля зеро",
+                        "serverRole":  "полусладенькие",
+                        "emojis":  [
+                                       "🤡",
+                                       "❓",
+                                       "😂",
+                                       "🍌",
+                                       "\n🇺🇦"
+                                   ]
+                    },
+                    {
+                        "id":  "u16",
+                        "name":  "это виноградный сок",
+                        "aliases":  [
+                                        "это виноградный сок",
+                                        "idiealittleeverymorning"
+                                    ],
+                        "avatar":  "assets/profiles/виноградный сок.png",
+                        "lolRole":  "Мид",
+                        "mainChamp":  "Владимир",
+                        "rank":  "Челленджер",
+                        "server":  "это виноградный сок",
+                        "serverRole":  "сладенькие",
+                        "emojis":  [
+                                       "🙋",
+                                       "🥺",
+                                       "️🎮",
+                                       "🩸",
+                                       "🧛"
+                                   ]
+                    },
+                    {
+                        "id":  "u17",
+                        "name":  "это нефть",
+                        "aliases":  [
+                                        "это нефть",
+                                        "iwantlevelup"
+                                    ],
+                        "avatar":  "assets/profiles/нефть.png",
+                        "lolRole":  "АДК",
+                        "mainChamp":  "Эзреаль",
+                        "rank":  "Платина",
+                        "server":  "это нефть",
+                        "serverRole":  "сладенькие",
+                        "emojis":  [
+                                       "🤓",
+                                       "🏹",
+                                       "😭",
+                                       "🔥",
+                                       "🛢️"
+                                   ]
+                    },
+                    {
+                        "id":  "u18",
+                        "name":  "это бабл ти",
+                        "aliases":  [
+                                        "это бабл ти",
+                                        "whiteavocado"
+                                    ],
+                        "avatar":  "assets/profiles/бабл ти.png",
+                        "lolRole":  "Саппорт",
+                        "mainChamp":  "Алистар",
+                        "rank":  "-",
+                        "server":  "это бабл ти",
+                        "serverRole":  "сладенькие",
+                        "emojis":  [
+                                       "😆",
+                                       "🫖",
+                                       "🐮",
+                                       "🐾",
+                                       "❤️"
+                                   ]
+                    },
+                    {
+                        "id":  "u19",
+                        "name":  "это май тай",
+                        "aliases":  [
+                                        "это май тай",
+                                        "xqccq"
+                                    ],
+                        "avatar":  "assets/profiles/май тай.png",
+                        "lolRole":  "Лес",
+                        "mainChamp":  "Виего",
+                        "rank":  "Грандмастер",
+                        "server":  "это май тай",
+                        "serverRole":  "без роли",
+                        "emojis":  [
+                                       "🥃",
+                                       "🦌",
+                                       "🧑",
+                                       "🎯",
+                                       "🃏"
+                                   ]
+                    },
+                    {
+                        "id":  "u20",
+                        "name":  "это бага",
+                        "aliases":  [
+                                        "это бага",
+                                        "dagestan"
+                                    ],
+                        "avatar":  "assets/profiles/бага.png",
+                        "lolRole":  "Мид",
+                        "mainChamp":  "Зед",
+                        "rank":  "Алмаз",
+                        "server":  "это бага",
+                        "serverRole":  "без роли",
+                        "emojis":  [
+                                       "🏔️",
+                                       "😇",
+                                       "😺",
+                                       "💖",
+                                       "✨"
+                                   ]
+                    },
+                    {
+                        "id":  "u21",
+                        "name":  "это горилла манго",
+                        "aliases":  [
+                                        "это горилла манго",
+                                        "kira229"
+                                    ],
+                        "avatar":  "assets/profiles/горилла манго.png",
+                        "lolRole":  "Мид",
+                        "mainChamp":  "Катарина",
+                        "rank":  "Челленджер",
+                        "server":  "это горилла манго",
+                        "serverRole":  "сладенькие",
+                        "emojis":  [
+                                       "🙋",
+                                       "🥺",
+                                       "🎮",
+                                       "‍⚔️",
+                                       "💃"
+                                   ]
+                    },
+                    {
+                        "id":  "u22",
+                        "name":  "это кумыс",
+                        "aliases":  [
+                                        "это кумыс",
+                                        "xckvkxcv"
+                                    ],
+                        "avatar":  "assets/profiles/кумыс.png",
+                        "lolRole":  "-",
+                        "mainChamp":  "-",
+                        "rank":  "-",
+                        "server":  "это кумыс",
+                        "serverRole":  "сладенькие",
+                        "emojis":  [
+                                       "😈",
+                                       "🚪",
+                                       "🤪",
+                                       "😎",
+                                       "💥"
+                                   ]
+                    },
+                    {
+                        "id":  "u23",
+                        "name":  "это HQD",
+                        "aliases":  [
+                                        "это HQD",
+                                        "hikita1347"
+                                    ],
+                        "avatar":  "assets/profiles/hqd.png",
+                        "lolRole":  "Мид",
+                        "mainChamp":  "Ёнэ",
+                        "rank":  "Изумруд",
+                        "server":  "это HQD",
+                        "serverRole":  "сладенькие",
+                        "emojis":  [
+                                       "😂",
+                                       "📤",
+                                       "🎥",
+                                       "😇",
+                                       "💖"
+                                   ]
+                    },
+                    {
+                        "id":  "u24",
+                        "name":  "это лавандовый раф",
+                        "aliases":  [
+                                        "это лавандовый раф",
+                                        "yazhenya"
+                                    ],
+                        "avatar":  "assets/profiles/лавандовый раф.png",
+                        "lolRole":  "Саппорт",
+                        "mainChamp":  "Варвик",
+                        "rank":  "Алмаз",
+                        "server":  "это лавандовый раф",
+                        "serverRole":  "сладенькие",
+                        "emojis":  [
+                                       "😆",
+                                       "👧",
+                                       "🐺",
+                                       "🎮",
+                                       "🤪"
+                                   ]
+                    },
+                    {
+                        "id":  "u25",
+                        "name":  "это апельсиновый сок",
+                        "aliases":  [
+                                        "это апельсиновый сок",
+                                        "imfir"
+                                    ],
+                        "avatar":  "assets/profiles/апельсиновый сок.png",
+                        "lolRole":  "АДК",
+                        "mainChamp":  "Смолдер",
+                        "rank":  "Грандмастер",
+                        "server":  "это апельсиновый сок",
+                        "serverRole":  "сладенькие",
+                        "emojis":  [
+                                       "🤫",
+                                       "🐉",
+                                       "❤️",
+                                       "😱",
+                                       "🐱"
+                                   ]
+                    },
+                    {
+                        "id":  "u26",
+                        "name":  "это белый монстр",
+                        "aliases":  [
+                                        "это белый монстр",
+                                        "aartick"
+                                    ],
+                        "avatar":  "assets/profiles/белый монстр.png",
+                        "lolRole":  "АДК",
+                        "mainChamp":  "Зери",
+                        "rank":  "Изумруд",
+                        "server":  "это белый монстр",
+                        "serverRole":  "без роли",
+                        "emojis":  [
+                                       "👩",
+                                       "👩",
+                                       "‍🦲",
+                                       "👩",
+                                       "👩"
+                                   ]
+                    },
+                    {
+                        "id":  "u27",
+                        "name":  "это мескаль",
+                        "aliases":  [
+                                        "это мескаль",
+                                        "jrachelxd"
+                                    ],
+                        "avatar":  "assets/profiles/мескаль.png",
+                        "lolRole":  "Топ",
+                        "mainChamp":  "Джейс",
+                        "rank":  "Грандмастер",
+                        "server":  "это мескаль",
+                        "serverRole":  "xdd",
+                        "emojis":  [
+                                       "🏆",
+                                       "🎓",
+                                       "😡",
+                                       "🧐",
+                                       "🔥"
+                                   ]
+                    },
+                    {
+                        "id":  "u28",
+                        "name":  "это апероль",
+                        "aliases":  [
+                                        "это апероль",
+                                        "muteallegirls"
+                                    ],
+                        "avatar":  "assets/profiles/апероль.png",
+                        "lolRole":  "Саппорт",
+                        "mainChamp":  "Релл",
+                        "rank":  "Грандмастер",
+                        "server":  "это апероль",
+                        "serverRole":  "сладенькие",
+                        "emojis":  [
+                                       "🍵",
+                                       "➡️",
+                                       "🍹",
+                                       "🐎",
+                                       "🛡️"
+                                   ]
+                    },
+                    {
+                        "id":  "u29",
+                        "name":  "это капучино",
+                        "aliases":  [
+                                        "это капучино",
+                                        "topkano"
+                                    ],
+                        "avatar":  "assets/profiles/капучино.png",
+                        "lolRole":  "АДК",
+                        "mainChamp":  "Дрейвен",
+                        "rank":  "Алмаз",
+                        "server":  "это капучино",
+                        "serverRole":  "сладенькие",
+                        "emojis":  [
+                                       "🪓",
+                                       "🪓",
+                                       "🥴",
+                                       "😵",
+                                       "🎰"
+                                   ]
+                    },
+                    {
+                        "id":  "u30",
+                        "name":  "это пупса",
+                        "aliases":  [
+                                        "это пупса",
+                                        "gokillaoggng"
+                                    ],
+                        "avatar":  "assets/profiles/пупса.png",
+                        "lolRole":  "Мид",
+                        "mainChamp":  "Акали",
+                        "rank":  "Грандмастер",
+                        "server":  "это пупса",
+                        "serverRole":  "сладенькие",
+                        "emojis":  [
+                                       "🤓",
+                                       "😇",
+                                       "🧠",
+                                       "🌍",
+                                       "⚔️"
+                                   ]
+                    },
+                    {
+                        "id":  "u31",
+                        "name":  "это сквиртовик",
+                        "aliases":  [
+                                        "это сквиртовик",
+                                        "._snowman"
+                                    ],
+                        "avatar":  "assets/profiles/сквиртовик.png",
+                        "lolRole":  "Саппорт",
+                        "mainChamp":  "Юми",
+                        "rank":  "Челленджер",
+                        "server":  "это сквиртовик",
+                        "serverRole":  "сладенькие",
+                        "emojis":  [
+                                       "😈",
+                                       "🚪",
+                                       "🤪",
+                                       "😎",
+                                       "💥"
+                                   ]
+                    },
+                    {
+                        "id":  "u32",
+                        "name":  "это зелье силы",
+                        "aliases":  [
+                                        "это зелье силы",
+                                        "eternalgod1337"
+                                    ],
+                        "avatar":  "assets/profiles/зелье силы.png",
+                        "lolRole":  "Лес",
+                        "mainChamp":  "Каин",
+                        "rank":  "Золото",
+                        "server":  "это зелье силы",
+                        "serverRole":  "сладенькие",
+                        "emojis":  [
+                                       "🎭",
+                                       "📢",
+                                       "😡",
+                                       "🛡️",
+                                       "❌"
+                                   ]
+                    },
+                    {
+                        "id":  "u34",
+                        "name":  "это вино",
+                        "aliases":  [
+                                        "это вино",
+                                        "huge_performanz"
+                                    ],
+                        "avatar":  "assets/profiles/вино.png",
+                        "lolRole":  "Мид",
+                        "mainChamp":  "Мэл",
+                        "rank":  "Мастер",
+                        "server":  "это вино",
+                        "serverRole":  "mommy",
+                        "emojis":  [
+                                       "🏋️",
+                                       "🎮",
+                                       "🏆",
+                                       "👑",
+                                       "🥇"
+                                   ]
+                    },
+                    {
+                        "id":  "u35",
+                        "name":  "это пиво",
+                        "aliases":  [
+                                        "это пиво",
+                                        "lishq"
+                                    ],
+                        "avatar":  "assets/profiles/пиво.png",
+                        "lolRole":  "-",
+                        "mainChamp":  "-",
+                        "rank":  "-",
+                        "server":  "это пиво",
+                        "serverRole":  "mommy",
+                        "emojis":  [
+                                       "🥈",
+                                       "🛡️",
+                                       "👧",
+                                       "👑",
+                                       "😶‍🌫️"
+                                   ]
+                    },
+                    {
+                        "id":  "u37",
+                        "name":  "это чай цзинь цзюнь мэй",
+                        "aliases":  [
+                                        "это чай цзинь цзюнь мэй",
+                                        "kakashi_san"
+                                    ],
+                        "avatar":  "assets/profiles/чай цзинь цзюнь мэй.png",
+                        "lolRole":  "Саппорт",
+                        "mainChamp":  "Релл",
+                        "rank":  "Платина",
+                        "server":  "это чай цзинь цзюнь мэй",
+                        "serverRole":  "сладенькие",
+                        "emojis":  [
+                                       "👧",
+                                       "🎰",
+                                       "💚",
+                                       "🩹",
+                                       "🫖"
+                                   ]
+                    },
+                    {
+                        "id":  "u38",
+                        "name":  "это американо",
+                        "aliases":  [
+                                        "это американо",
+                                        "yunaramainshh"
+                                    ],
+                        "avatar":  "assets/profiles/американо.png",
+                        "lolRole":  "АДК",
+                        "mainChamp":  "Юнара",
+                        "rank":  "Грандмастер",
+                        "server":  "это американо",
+                        "serverRole":  "сладенькие",
+                        "emojis":  [
+                                       "🔫",
+                                       "😡",
+                                       "☠️",
+                                       "🎭",
+                                       "👩"
+                                   ]
+                    },
+                    {
+                        "id":  "u39",
+                        "name":  "это бинсу",
+                        "aliases":  [
+                                        "это бинсу",
+                                        "vulppuff"
+                                    ],
+                        "avatar":  "assets/profiles/бинсу.png",
+                        "lolRole":  "Лес",
+                        "mainChamp":  "Нуну и Виллумп",
+                        "rank":  "Изумруд",
+                        "server":  "это бинсу",
+                        "serverRole":  "сладенькие",
+                        "emojis":  [
+                                       "👦",
+                                       "🎥",
+                                       "🎭",
+                                       "🤡",
+                                       "😈"
+                                   ]
+                    },
+                    {
+                        "id":  "u40",
+                        "name":  "это лаймон фреш",
+                        "aliases":  [
+                                        "это лаймон фреш",
+                                        "chopper_30cm"
+                                    ],
+                        "avatar":  "assets/profiles/лаймон фреш.png",
+                        "lolRole":  "Мид",
+                        "mainChamp":  "Ясуо",
+                        "rank":  "Челленджер",
+                        "server":  "это лаймон фреш",
+                        "serverRole":  "xdd",
+                        "emojis":  [
+                                       "👦",
+                                       "🏆",
+                                       "❤️",
+                                       "🍗",
+                                       "🍉"
+                                   ]
+                    },
+                    {
+                        "id":  "u41",
+                        "name":  "это сучка",
+                        "aliases":  [
+                                        "это сучка",
+                                        "itquins"
+                                    ],
+                        "avatar":  "assets/profiles/сучка.png",
+                        "lolRole":  "-",
+                        "mainChamp":  "-",
+                        "rank":  "-",
+                        "server":  "это сучка",
+                        "serverRole":  "сучка",
+                        "emojis":  [
+                                       "🔝",
+                                       "3️⃣",
+                                       "😇",
+                                       "☠️",
+                                       "🤬"
+                                   ]
+                    },
+                    {
+                        "id":  "u42",
+                        "name":  "это чай лунцзин",
+                        "aliases":  [
+                                        "это чай лунцзин",
+                                        "ghostozgur7"
+                                    ],
+                        "avatar":  "assets/profiles/чай лунцзин.png",
+                        "lolRole":  "Лес",
+                        "mainChamp":  "Вуконг",
+                        "rank":  "Алмаз",
+                        "server":  "это чай лунцзин",
+                        "serverRole":  "сладенькие",
+                        "emojis":  [
+                                       "🐵",
+                                       "😶‍🌫️",
+                                       "🤐",
+                                       "🤓",
+                                       "🫖"
+                                   ]
+                    },
+                    {
+                        "id":  "u43",
+                        "name":  "это пина колада",
+                        "aliases":  [
+                                        "это пина колада",
+                                        "shihiteo"
+                                    ],
+                        "avatar":  "assets/profiles/пина колада.png",
+                        "lolRole":  "Топ",
+                        "mainChamp":  "Фиора",
+                        "rank":  "Челленджер",
+                        "server":  "это пина колада",
+                        "serverRole":  "без роли",
+                        "emojis":  [
+                                       "🤬",
+                                       "⚔️",
+                                       "🧐",
+                                       "🤴",
+                                       "😇"
+                                   ]
+                    }
+                ],
+    "clips":  [
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/16-1_RU-549033542_01.webm",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/20251230_CulturedRichSwallowBIRB-BjtfEcIYEMcNp86X_source (2).mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_01.11.2025_223356.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_01.11.2025_231510.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_02.01.2026_100322.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_02.12.2025_140822.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_02092025_015316.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_03.01.2026_070640.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_03.11.2025_212803.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_03072025_002240.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_03082025_164203.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_04.11.2025_003330.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_04042025_005601.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_04042025_022002.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_04042025_193857.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_04042025_230903.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_04082025_210247.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_05.11.2025_022127.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_05.11.2025_030831.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_05072025_030131.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_05092025_233726.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_06.01.2026_135501.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_06092025_195908.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_07072025_044425.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_07092025_011935.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_07092025_013038.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_07092025_021051.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_07092025_033546.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_07092025_205820.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_08.11.2025_012425.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_08032025_043924.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_09042025_004631.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_09082025_020409.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_09082025_021100.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_10102025_234649.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_11.11.2025_002856.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_11102025_002139.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_12082025_205410.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_12082025_210720.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_12082025_213157.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_12082025_215154.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_12102025_021638.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_12102025_165942.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_12102025_171328.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_13.11.2025_212334.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_13062025_005430.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_13082025_012722.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_13082025_213944.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_13082025_220840.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_14082025_185506.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_14082025_210523.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_15.12.2025_005042.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_15042025_211904.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_16.11.2025_121856.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_16.11.2025_184441.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_16.11.2025_184500.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_16092025_221351.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_16092025_221414.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_16092025_224048.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_17.11.2025_145244.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_17032025_012821.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_17032025_022100.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_17042025_025824.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_17042025_032506.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_17042025_034125.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_17042025_214157.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_17042025_214959.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_17042025_220335.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_17082025_002037.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_17082025_200047.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_18032025_005016.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_18042025_012918.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_18102025_021724.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_18102025_024932.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_19032025_020743.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_19092025_232110.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_20.11.2025_230153.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_20.12.2025_205227.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_20042025_020656.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_20042025_030527.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_20082025_022848.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_22082025_194354.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_22092025_012932.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_22092025_013158.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_22092025_025700.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_23082025_001738.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_23082025_005858.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_23082025_221517.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_24.11.2025_001358.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_24.11.2025_001532.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_24032025_193656.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_24082025_204917.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_24082025_230153.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_24102025_175324.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_25062025_141911.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_25102025_220417.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_26.11.2025_010730.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_26.11.2025_012117.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_27.12.2025_121257.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_27082025_225039.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_27092025_014014.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_27092025_043901.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_28.11.2025_065413.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_28062025_174954.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_28082025_003117.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_29032025_034507.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_29102025_142957.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_30.12.2025_051503.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_30032025_014637.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_30062025_004230.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_30062025_145621.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_30082025_010636.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_30102025_000721.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_31.12.2025_222227 (1).mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_31072025_225209.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_Malphite_-_Match_9_-_923pm-2025-03-22-01-54-58-282.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Clip_-_Vayne_-_Sunset_-_Match_2_-_105am-2025-03-14-01-56-47-840.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/dayn.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/League_of_Legends_12-12-2025_21-25-10-813.mp4",
+                      "cutSeconds":  5
+                  },
+                  {
+                      "prompt":  "Что произошло дальше?",
+                      "mediaType":  "video",
+                      "src":  "assets/clips/Untitled_video_-_Made_with_Clipchamp.mp4",
+                      "cutSeconds":  5
+                  }
+              ]
 }
