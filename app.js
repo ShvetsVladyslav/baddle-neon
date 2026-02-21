@@ -76,7 +76,14 @@ function buildQuestions(){
       }))
     : [];
   const profile = rosterCount
-    ? [{ id: "p1", targetId: ROSTER[0].id, image: ROSTER[0].avatar }]
+    ? Array.from({length: 200}, (_, i) => {
+        const user = ROSTER[i % rosterCount];
+        return {
+          id: `p${i + 1}`,
+          targetId: user.id,
+          image: user.avatar
+        };
+      })
     : [];
   const next = CLIPS.map((clip, i) => ({
     id: `n${i + 1}`,
